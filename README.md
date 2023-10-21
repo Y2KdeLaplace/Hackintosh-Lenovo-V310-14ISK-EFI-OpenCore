@@ -1,6 +1,9 @@
 ### Hackintosh-Lenovo-V310-14ISK-EFI-OpenCore
 
-A Hackintosh EFI backup and share for Lenovo-V310-14ISK (Open core 0.9.5)
+A Hackintosh EFI backup and share for Lenovo-V310-14ISK (Open core 0.9.5)  
+This EFI dosen't work on monterey, it report error like this:
+![error].
+***
 
 ### Lenovo-310-14ISK 
 
@@ -20,8 +23,8 @@ A Hackintosh EFI backup and share for Lenovo-V310-14ISK (Open core 0.9.5)
 | Storage | 1x LITEON SSD 250GB + 1x ST500LT012 HDD SATA 500GB | Working |
 | Wifi | Intel AC 3165 + Bluetooth | Working |
 | Ethernet | Realtek Gigabit Ethernet | Working |
-| Touchpad | PS2 Interface | Working |
-| Keyboard | PS2 Interface | Working |
+| Touchpad | SYN PS2 Interface | Working |
+| Keyboard | MSFT PS2 Interface | Working |
 | Sound | Conexant 0x80869D70, Codec ID=0x17AA3812 Layout ID=3 | Working |
 | Battery | Device=L15C4A02, Manufacturer=CPT-LGS3 11 | Working |
 | Webcam | Realtek EasyCamera | Working |
@@ -80,4 +83,13 @@ A Hackintosh EFI backup and share for Lenovo-V310-14ISK (Open core 0.9.5)
 | [SSDT-XOSI](https://github.com/dortania/Getting-Started-With-ACPI/blob/master/extra-files/compiled/SSDT-XOSI.aml) | Enables many Windows-only functionality in macOS and requires XOSI patch | [Read](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/skylake.html#acpi) |
 | [SSDT-HPET.aml](https://dortania.github.io/Getting-Started-With-ACPI/Universal/irq.html)  | Patch IRQ Conflicts | [Read](https://dortania.github.io/Getting-Started-With-ACPI/ssdt-methods/ssdt-easy.html#running-ssdttime) |
 | [SSDT-SBUS-MCHC.aml](https://dortania.github.io/Getting-Started-With-ACPI/Universal/smbus.html) | Fix Intel System Management Bus | [Read](https://dortania.github.io/Getting-Started-With-ACPI/Universal/smbus-methods/manual.html#edits-to-the-sample-ssdt) |
+
+### Recommendation of tools
+| software | Info |
+| ----------- | ----------- |
+| [gibMacOS](https://github.com/corpnewt/gibMacOS) | download images |
+| [iasl-win](https://www.intel.com/content/www/us/en/download/774881/acpi-component-architecture-downloads-windows-binary-tools.html) | compile and decompile SSDT |
+| [OCAuxiliaryTools](https://github.com/GPUOpen-Tools/OCAT/releases) | setup plist |
+| [ProperTree](https://github.com/corpnewt/ProperTree) | setup plist |
+
 
