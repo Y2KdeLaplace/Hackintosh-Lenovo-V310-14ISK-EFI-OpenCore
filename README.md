@@ -93,7 +93,7 @@ A Hackintosh EFI backup and share for Lenovo-V310-14ISK (Open core 0.9.5)
 
 ***
 NOTE!  
-This EFI dosen't work on monterey, it report error "In Meiory Panic Stackshot Succeeded ww Bytes Traced 5262 (Uncompressed 12752)".
+This EFI dosen't work on monterey, it report error "In Memory Panic Stackshot Succeeded ww Bytes Traced 5262 (Uncompressed 12752)".
 ![error](s2.png " In Meiory Panic Stackshot Succeeded ww Bytes Traced 5262 (Uncompressed 12752)")
 
 ***
