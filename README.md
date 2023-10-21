@@ -24,9 +24,9 @@ A Hackintosh EFI backup and share for Lenovo-V310-14ISK (Open core 0.9.5)
 | Ethernet | Realtek Gigabit Ethernet | Working |
 | Touchpad | SYN PS2 Interface | Working |
 | Keyboard | MSFT PS2 Interface | Working |
-| Sound | Conexant 0x80869D70, Codec ID=0x17AA3812 Layout ID=3 | Working |
+| Sound | Codec ID=0x17AA3812 Layout ID=3 | Working |
 | Battery | Device=L15C4A02, Manufacturer=CPT-LGS3 11 | Working |
-| Webcam | Realtek EasyCamera | Working |
+| Webcam | EasyCamera | Working |
 | SD Card Reader | Realtek USB 2.0 Card Reader | Untested |
 
 ### System Status :
@@ -95,3 +95,7 @@ A Hackintosh EFI backup and share for Lenovo-V310-14ISK (Open core 0.9.5)
 NOTE!  
 This EFI dosen't work on monterey, it report error "In Meiory Panic Stackshot Succeeded ww Bytes Traced 5262 (Uncompressed 12752)".
 ![error](s2.png " In Meiory Panic Stackshot Succeeded ww Bytes Traced 5262 (Uncompressed 12752)")
+
+***
+Chinese reference:[MacOS安装流程](https://tech.sina.cn/2020-07-14/detail-iivhvpwx5197337.d.html), [国光酱](https://apple.sqlsec.com/), [OpenCore](https://thrrip.github.io/OpenCore-Install-Guide/)
+
