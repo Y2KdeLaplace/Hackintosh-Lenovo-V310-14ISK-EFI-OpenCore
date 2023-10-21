@@ -6,7 +6,7 @@ A Hackintosh EFI backup and share for Lenovo-V310-14ISK (Open core 0.9.5)
 
 | Laptop Type | Bios Version | Installed macOS | Bootloader |
 | ----------- | ----------- | ----------- | ----------- | 
-| [Lenovo Ideapad 310 14ISK 80SL](https://detail.zol.com.cn/notebook/index1145655.shtml) | [LENOVO Insyde 0ZCN52WW](https://newsupport.lenovo.com.cn/driveDownloads_detail.html?driveId=71387) (Lastest)| Big Sur 11.7.10 | [OpenCore v0.9.5](https://github.com/acidanthera/OpenCorePkg/releases) |
+| [Lenovo Ideapad 310 14ISK 80SL](https://detail.zol.com.cn/notebook/index1145655.shtml) | [LENOVO Insyde 0ZCN52WW](https://newsupport.lenovo.com.cn/driveDownloads_detail.html?driveId=71387) (Lastest)| Big Sur 11.7.10 (20G1427) | [OpenCore v0.9.5](https://github.com/acidanthera/OpenCorePkg/releases) |
 
 ### My Specifications :
 
@@ -16,13 +16,13 @@ A Hackintosh EFI backup and share for Lenovo-V310-14ISK (Open core 0.9.5)
 | Chipset | Intel Skylake-U | Working |
 | RAM | 4GB DDR4  (2133 Mhz) | Working |
 | IGPU | Intel HD Graphics 520 | Working |
-| dGPU | AMD | Not Supported |
-| Storage | 1x SSD 250GB + 1x  HDD SATA 500GB | Working |
+| dGPU | AMD Radeon R5 M430 | Not Supported |
+| Storage | 1x LITEON SSD 250GB + 1x ST500LT012 HDD SATA 500GB | Working |
 | Wifi | Intel AC 3165 + Bluetooth | Working |
-| Ethernet | Realtek RTL8168GU Gigabit Ethernet | Working |
-| Touchpad | Synaptic SYN2B58 PS2 Interface | Working |
+| Ethernet | Realtek Gigabit Ethernet | Working |
+| Touchpad | PS2 Interface | Working |
 | Keyboard | PS2 Interface | Working |
-| Sound | Conexant , Codec ID= Layout ID=3 | Working |
+| Sound | Conexant 0x80869D70, Codec ID=0x17AA3812 Layout ID=3 | Working |
 | Battery | Device=L15C4A02, Manufacturer=CPT-LGS3 11 | Working |
 | Webcam | Realtek EasyCamera | Working |
 | SD Card Reader | Realtek USB 2.0 Card Reader | Untested |
@@ -35,12 +35,12 @@ A Hackintosh EFI backup and share for Lenovo-V310-14ISK (Open core 0.9.5)
 | CPU Power Management | Working |
 | Restart and Shutdown | Working |
 | Sleep | Working |
-| Brightness Slider & keys F11 - F12 | Working |
+| Brightness Slider & keys F11 - F12 | Working on mouse adjustment |
 | Battery Precentage | Working |
 | Touchpad and Gesture | Working |
 | HDMI Display | Working |
 | HDMI Audio | Working |
-| iService | Not Working |
+| iService | Working |
 
 ### Used Kext :
 
