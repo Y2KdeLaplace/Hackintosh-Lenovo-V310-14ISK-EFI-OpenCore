@@ -70,4 +70,16 @@ A Hackintosh EFI backup and share for Lenovo-V310-14ISK (Open core 0.9.5)
 | VoodooInput.kext | keep it in order in the config.plist |
 | [BrightnessKeys.kext](https://github.com/acidanthera/BrightnessKeys/releases) | Automatic handling of brightness keys based on ACPI  |
 
-unfinished
+### Used DSDT & SSDT :
+
+| SSDT | Info | Guide |
+| ----------- | ----------- | ----------- |
+
+| [SSDT-EC-USBX-LAPTOP.aml](https://github.com/dortania/Getting-Started-With-ACPI/blob/master/extra-files/compiled/SSDT-EC-LAPTOP.aml) | 1.Used for disabling your real Embedded controller and creating a fake one for macOS to play with  2.USBX portion is used for injection USB power properties missing on Skylake and newer | [Read](https://dortania.github.io/Getting-Started-With-ACPI/ssdt-methods/ssdt-prebuilt.html#laptop-skylake-and-kaby-lake) |
+| [SSDT-HPET.aml](/EFI/OC/ACPI/SSDT-HPET.aml)  | Patch IRQ Conflicts | [Read](https://dortania.github.io/Getting-Started-With-ACPI/ssdt-methods/ssdt-easy.html#running-ssdttime) |
+| [SSDT-PLUG.aml](/EFI/OC/ACPI/SSDT-PLUG.aml) | Fix Intel Skylake Processor Plugin Type | [Read](https://dortania.github.io/Getting-Started-With-ACPI/Universal/plug.html) |
+| [SSDT-PNLF.aml](/EFI/OC/ACPI/SSDT-PNLF.aml)| Fix Backlight Slider | [Read](https://dortania.github.io/Getting-Started-With-ACPI/Laptops/backlight.html) |
+| [SSDT-SBUS-MCHC.aml](/EFI/OC/ACPI/SSDT-SBUS-MCHC.aml) | Fix Intel System Management Bus | [Read](https://dortania.github.io/Getting-Started-With-ACPI/Universal/smbus.html) |
+| [SSDT-dGPU-Off.aml](/EFI/OC/ACPI/SSDT-dGPU-Off.aml) | Disable Nvidia Optimus Discrete GPU | [Read](https://dortania.github.io/Getting-Started-With-ACPI/Laptops/laptop-disable.html#optimus-method) |
+| [SSDT-UIAC.aml](/EFI/OC/ACPI/SSDT-UIAC.aml)| Blocked Unused Usb Port | [Read](https://dortania.github.io/OpenCore-Post-Install/usb/) |
+| [SSDT-USBX.aml](/EFI/OC/ACPI/SSDT-USBX.aml) | Fix Usb Port Mapping | [Read](https://dortania.github.io/OpenCore-Post-Install/usb/) |
