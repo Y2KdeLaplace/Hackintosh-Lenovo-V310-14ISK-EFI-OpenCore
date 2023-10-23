@@ -37,7 +37,7 @@ A Hackintosh EFI backup and share for Lenovo-V310-14ISK (Open core 0.9.5)
 | CPU Power Management | Working |
 | Restart and Shutdown | Working |
 | Sleep | Working |
-| Brightness Slider & keys F11 - F12 | keys F11 - F12 didn't work (can be fixed using Karabiner-Elements) |
+| Brightness Slider & keys F11 - F12 | keys F1 - F12 didn't work but they can be fixed using Karabiner-Elements |
 | Battery Precentage | Working |
 | Touchpad and Gesture | Working |
 | HDMI Display | Working |
